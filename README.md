@@ -8,7 +8,7 @@
 
 ### Airbnb data analysis
 
-- In this project, mounted data from s3 to distributed databricks environment
+- In this project, mounted data from S3 to distributed databricks environment
 - Addressed few real world data reading issues (read format vs data format)
 - Load the data as tables on cluster in parquet format (columnar data store to save data on distributed cluster)
 - Repartition the data from worker nodes into a single file write back to S3
